@@ -4,6 +4,7 @@ const validator = require("email-validator");
 
 const sahkoPosti = process.argv[2];
 const filePath = 'Liitteet/nimet.json';
+
 try {
     const data = fs.readFileSync(filePath);
 
