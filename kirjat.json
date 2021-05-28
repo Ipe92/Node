@@ -1,0 +1,6 @@
+[
+    { "nimi": "kirja", "kirjoittaja": "Pekka" },
+    { "nimi": "kirja2", "kirjoittaja": ["Pekka Liisa Antti"] },
+    { "nimi": "kirja3_FANTASIA", "kirjoittaja": ["Pekka Liisa Antti"] },
+    { "nimi": "kirja3_FANTASIA", "kirjoittaja": ["Pekka Liisa Antti"], "valinta": "Fantasia" }
+]
