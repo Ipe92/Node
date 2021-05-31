@@ -72,7 +72,6 @@ const listaaKirja = (valinta) => {
         });
     }
 };
-
 const tallennaKirjat = (kirjat) => {
     const kirjatJSON = JSON.stringify(kirjat);
     fs.writeFileSync("kirjat.json", kirjatJSON);
