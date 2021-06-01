@@ -52,24 +52,29 @@ const listaaKirja = (valinta) => {
     console.log(`Tässä lista ${valinta}`);
 
     if (valinta === "kaikki") {
-        kirjat.forEach((valinta) => {
-            console.log(valinta);
+        kirjat.forEach((kirja) => {
+            console.log(kirja);
         });
-    } else if (valinta === "Fantasia") {
-        kirjat.forEach((valinta) => {
-            if (valinta.includes(valinta)) {
-                console.log(valinta);
+    } else if (valinta === "fantasia") {
+        kirjat.forEach((kirja) => {
+            if (kirja.valinta === "fantasia") {
+                console.log(kirja);
             }
-            console.log(valinta);
         });
-    } else if (valinta === "Sota") {
-        kirjat.forEach((valinta) => {
-            console.log(valinta);
+    } else if (valinta === "sota") {
+        kirjat.forEach((kirja) => {
+            if (kirja.valinta === "sota") {
+                console.log(kirja);
+            }
         });
-    } else if (valinta === "Tiede") {
-        kirjat.forEach((valinta) => {
-            console.log(valinta);
+    } else if (valinta === "tiede") {
+        kirjat.forEach((kirja) => {
+            if (kirja.valinta === "tiede") {
+                console.log(kirja);
+            }
         });
+    } else {
+        console.log(`Ei löydetty yhtään kirjaa, jonka valinta on: ${valinta}`);
     }
 };
 const tallennaKirjat = (kirjat) => {

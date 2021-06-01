@@ -1,6 +1,6 @@
 [
-    { "nimi": "kirja", "kirjoittaja": "Pekka" },
-    { "nimi": "kirja2", "kirjoittaja": ["Pekka Liisa Antti"] },
-    { "nimi": "kirja3_FANTASIA", "kirjoittaja": ["Pekka Liisa Antti"] },
-    { "nimi": "kirja3_FANTASIA", "kirjoittaja": ["Pekka Liisa Antti"], "valinta": "Fantasia" }
+    { "nimi": "kirja", "kirjoittaja": "Pekka", "valinta": "fantasia" },
+    { "nimi": "kirja2", "kirjoittaja": ["Pekka Liisa Antti"], "valinta": "sota" },
+    { "nimi": "kirja3_FANTASIA", "kirjoittaja": ["Pekka Liisa Antti"], "valinta": "tiede" },
+    { "nimi": "kirja3_FANTASIA", "kirjoittaja": ["Pekka Liisa Antti"], "valinta": "fantasia" }
 ]

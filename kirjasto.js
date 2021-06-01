@@ -17,7 +17,7 @@ yargs.command({
         },
         valinta: {
             demandOption: true,
-            choices: ["kaikki", "Fantasia", "Sota", "Tiede"],
+            choices: ["kaikki", "fantasia", "sota", "tiede"],
             describe: "Listataan kirjat valinnan perusteella",
         },
     },
@@ -32,7 +32,7 @@ yargs.command({
     builder: {
         valinta: {
             demandOption: true,
-            choices: ["kaikki", "Fantasia", "Sota", "Tiede"],
+            choices: ["kaikki", "fantasia", "sota", "tiede"],
             describe: "Listataan kirjat valinnan perusteella",
         },
     },
