@@ -1,0 +1,5 @@
+[
+    { "nimi": "Kana", "raakaAineet": ["kanankoipia", "vihanneksia", "vettä", "riisiä", "suola"] },
+    { "nimi": "nistipata", "raakaAineet": ["jauheliha", "makaroni", "sipuli", "ketsuppi", "suola"] },
+    { "nimi": "Letut", "raakaAineet": ["vehnäjauho", "maito", "sokeri", "suola", "kananmunat", "öljy"] }
+]
